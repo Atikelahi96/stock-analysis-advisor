@@ -69,16 +69,6 @@ This project is an AI-powered stock analysis and investment advisory system that
 GET http://127.0.0.1:8000/analyze/AAPL
 ```
 
-**Response**:
-```json
-{
-  "advanced_analysis": "**Refined Stock Analysis Report for AAPL**
-
-**Executive Summary**:
-This refined report provides an in-depth analysis of AAPL's stock performance, sentiment, and investment advice..."
-}
-```
-
 ## **Files Explanation**
 
 1. **financial_data_fetcher.py**: 
