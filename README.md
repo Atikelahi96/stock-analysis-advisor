@@ -35,7 +35,7 @@ This project is an AI-powered stock analysis and investment advisory system that
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/stock-analysis-advisor.git
+   git clone https://github.com/Atikelahi96/stock-analysis-advisor.git
    cd stock-analysis-advisor
    ```
 
