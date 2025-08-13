@@ -1,7 +1,7 @@
 
 # **Stock Analysis and Investment Advisor**
 
-This project is an AI-powered stock analysis and investment advisory system that utilizes **financial data analysis**, **sentiment analysis**, and **investment recommendations** based on real-time stock data. It uses a **hybrid sentiment analysis model** to evaluate stock trends, perform sentiment analysis, and provide investment advice.
+This project is an AI-powered stock analysis and investment advisory system that utilizes **financial data analysis**, **sentiment analysis**, and **investment recommendations** based on real-time stock data. It uses a **hybrid sentiment analysis model** to evaluate stock trends, perform sentiment analysis, and provide investment advice using llama-3.3-70b-versatile.
 
 ## **Features**
 
@@ -9,7 +9,7 @@ This project is an AI-powered stock analysis and investment advisory system that
 - **Sentiment Analysis**: Utilizes **FinBERT** (a pre-trained BERT model for financial sentiment analysis) to assess the market sentiment for stocks.
 - **Investment Advice**: Provides **Buy**, **Sell**, or **Hold** advice based on **Simple Moving Averages (SMA)** and **sentiment analysis**.
 - **Report Generation**: Generates a detailed stock analysis report, including sentiment, price movement, volatility insights, and actionable advice.
-- **AI-driven Refinement**: Uses **Groq API** to refine and enhance the generated reports, making them more insightful and actionable for users.
+- **AI-driven Refinement**: Uses **llama-3.3-70b-versatile** to refine and enhance the generated reports, making them more insightful and actionable for users.
 
 ## **Project Overview**
 
@@ -62,7 +62,7 @@ This project is an AI-powered stock analysis and investment advisory system that
 ### **`/analyze/{ticker}`**
 
 **Method**: `GET`  
-**Description**: Fetches the stock data, performs sentiment analysis, provides investment advice, generates a report, and refines the report using Groq AI.
+**Description**: Fetches the stock data, performs sentiment analysis, provides investment advice, generates a report, and refines the report using llama-3.3-70b-versatile
 
 **Example**:
 ```bash
